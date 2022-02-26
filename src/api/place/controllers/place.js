@@ -12,10 +12,9 @@ module.exports = createCoreController('api::place.place', ({strapi}) => ({
   async find(ctx) {
     // some custom logic here
     ctx.query = {...ctx.query, populate: '*'}
-    ctx.query._limit = -1;
 
     // Calling the default core action
-    const {data, meta} = await super.find(ctx,{_limit: -1});
+    const {data, meta} = await super.find(ctx);
 
     return {data, meta};
   },
