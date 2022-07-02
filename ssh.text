@@ -1,0 +1,23 @@
+Generating public/private rsa key pair.
+Enter passphrase (empty for no passphrase):
+Enter same passphrase again:
+Your identification has been saved in /home/urgutavt/.ssh/id_rsa.
+Your public key has been saved in /home/urgutavt/.ssh/id_rsa.pub.
+The key fingerprint is:
+SHA256:k0VygyDDWGhjLTzzRm/mk8rTsSfSn+MK/YKwfYrQhMw
+The key's randomart image is:
++---[RSA 2048]----+
+| . *+ ....+      |
+|  @ +o  .+ .     |
+| o B .    .      |
+|o.  o +  o       |
+|.E.. + .S        |
+| o.  .=  .       |
+|. .=.=.+         |
+| ...B.B.o.       |
+|  . .=.B=.       |
++----[SHA256]-----+
+
+postgres://urgutavt_strapi:H&8w6!2N(LhJ@localhost:5432/urgutavt_strapi_db
+user: urgutavt_strapi
+pass: H&8w6!2N(LhJ
