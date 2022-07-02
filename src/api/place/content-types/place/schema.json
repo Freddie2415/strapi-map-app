@@ -129,6 +129,14 @@
       "relation": "manyToOne",
       "target": "api::category.category",
       "inversedBy": "places"
+    },
+    "panorama_link": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": false
+        }
+      },
+      "type": "string"
     }
   }
 }
