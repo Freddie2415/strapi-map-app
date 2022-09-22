@@ -137,6 +137,17 @@
         }
       },
       "type": "string"
+    },
+    "videos": {
+      "displayName": "videos",
+      "type": "component",
+      "repeatable": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": false
+        }
+      },
+      "component": "video.videos"
     }
   }
 }
