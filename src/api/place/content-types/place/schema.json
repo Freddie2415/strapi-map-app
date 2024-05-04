@@ -139,12 +139,11 @@
       "type": "string"
     },
     "videos": {
-      "displayName": "videos",
       "type": "component",
       "repeatable": true,
       "pluginOptions": {
         "i18n": {
-          "localized": false
+          "localized": true
         }
       },
       "component": "video.videos"
