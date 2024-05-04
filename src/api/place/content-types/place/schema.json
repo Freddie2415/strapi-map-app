@@ -137,6 +137,16 @@
         }
       },
       "type": "string"
+    },
+    "videos": {
+      "type": "component",
+      "repeatable": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "video.videos"
     }
   }
 }
